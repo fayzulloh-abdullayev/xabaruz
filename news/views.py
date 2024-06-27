@@ -62,5 +62,9 @@ def contact(request):
 
 def not_404_found(request):
     return render(request=request, template_name='pages/404.html')
+                  
+def make():
+    return 'to me'
 
-#nice
+
+#ddddd
