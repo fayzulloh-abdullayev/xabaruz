@@ -10,7 +10,7 @@ class StateManager(models.Manager):
     def get_queryset(self) -> models.QuerySet:
         return super().get_queryset().filter(state=PublishChoice.success)
     
-
+#dsddss
 class Category(models .Model):
     
     name=models.CharField(max_length=50)
